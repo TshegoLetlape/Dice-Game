@@ -1,1 +1,93 @@
+body {
+  background: pink;
+  text-align: center;
+}
+.parent-cont {
+  background: #b4446b;
+  background-color: rgb(229, 154, 177);
+  margin: 50px auto;
+  width: 700px;
+  justify-content: center;
+  font-family: "Harry Potter", sans-serif;
+  letter-spacing: 5px;
+}
 
+#newGame {
+  justify-content: center;
+  margin: 50px 0;
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 1px 3px 10px black;
+  font-weight: 500;
+  letter-spacing: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.frst-row {
+  justify-content: center;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row;
+}
+.frst-row .block {
+  color: white;
+  padding: 10px;
+  margin: 20px 30px;
+  border-radius: 10px;
+}
+.frst-row h2 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.frst-row h1 {
+  font-size: 45px;
+  color: #bd5579;
+}
+
+.parent-cont .img img {
+  width: 90px;
+  border: none;
+  background: none;
+  background-color: beige;
+  color: white;
+}
+
+.scnd-row .current {
+  background-color: #b4446b;
+  color: #fff;
+  border-radius: 7px;
+  padding: 20px 50px;
+  margin: 20px;
+}
+
+.scnd-row {
+  justify-content: center;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row;
+}
+.current p {
+  margin-top: 30px;
+}
+
+.scnd-row button {
+  background-color: hsla(0, 10%, 96%, 0.9);
+  display: block;
+  margin: 20px auto;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 40px;
+  box-shadow: 1px 3px 10px black;
+  font-weight: 500;
+  letter-spacing: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #b4446b;
+  color: #fff;
+}
