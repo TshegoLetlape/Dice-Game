@@ -5,7 +5,7 @@ body {
   background-size: cover;
 }
 .parent-cont {
-  background: #b4446b;
+  background: #dc9436;
   background-color: transparent;
 
   margin: 50px auto;
@@ -99,6 +99,6 @@ body {
 
 button:hover {
   cursor: pointer;
-  background: #b4446b;
+  background: #dc9436;
   color: #fff;
 }
