@@ -1,10 +1,13 @@
 body {
   background: pink;
   text-align: center;
+  background-image: url(images/G\ vs\ sly.jpg);
+  background-size: cover;
 }
 .parent-cont {
   background: #b4446b;
-  background-color: rgb(229, 154, 177);
+  background-color: transparent;
+
   margin: 50px auto;
   width: 700px;
   justify-content: center;
@@ -23,6 +26,14 @@ body {
   letter-spacing: 5px;
   transition: all 0.3s ease-in-out;
 }
+
+.block {
+  background-color: #dc9436;
+
+  border: none;
+  padding: 20px 50px;
+  margin: 10px;
+}
 .frst-row {
   justify-content: center;
   display: inline-flex;
@@ -31,10 +42,10 @@ body {
   flex-flow: row;
 }
 .frst-row .block {
-  color: white;
+  color: black;
   padding: 10px;
-  margin: 20px 30px;
-  border-radius: 10px;
+  margin: 40px 30px;
+  border-radius: 7px;
 }
 .frst-row h2 {
   font-size: 25px;
@@ -43,7 +54,7 @@ body {
 
 .frst-row h1 {
   font-size: 45px;
-  color: #bd5579;
+  color: black;
 }
 
 .parent-cont .img img {
@@ -55,8 +66,8 @@ body {
 }
 
 .scnd-row .current {
-  background-color: #b4446b;
-  color: #fff;
+  background-color: #dc9436;
+  color: black;
   border-radius: 7px;
   padding: 20px 50px;
   margin: 20px;
