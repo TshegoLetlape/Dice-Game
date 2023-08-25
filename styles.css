@@ -7,7 +7,6 @@ body {
 .parent-cont {
   background: #dc9436;
   background-color: transparent;
-
   margin: 50px auto;
   width: 700px;
   justify-content: center;
@@ -29,7 +28,6 @@ body {
 
 .block {
   background-color: #dc9436;
-
   border: none;
   padding: 20px 50px;
   margin: 10px;
