@@ -47,7 +47,7 @@ body {
 }
 #newGame:hover {
   cursor: pointer;
-  background-color: #dc9538;
+  background-color: #0b6680;
   color: #fff;
 }
 
@@ -81,7 +81,7 @@ body {
 }
 
 .frst-row h1 {
-  background-color: #dc9538;
+  background-color: #0b6680;
   width: fit-content;
   margin: auto;
   font-size: 25px;
@@ -142,6 +142,6 @@ body {
 
 button:hover {
   cursor: pointer;
-  background-color: #dc9538;
+  background-color: #0b6680;
   color: #fff;
 }
