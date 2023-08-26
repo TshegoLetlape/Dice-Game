@@ -1,21 +1,40 @@
 body {
   background: pink;
   text-align: center;
-  background-image: url(images/G\ vs\ sly.jpg);
+  background-image: url(images/bg-2.jpg);
   background-size: cover;
+  background-position: top center;
 }
-.parent-cont {
-  background: #b4446b;
-  background-color: transparent;
 
-  margin: 50px auto;
+.parent-cont {
+  clear: both;
+  background-color: transparent;
+  margin: 20px auto;
   width: 700px;
   justify-content: center;
   font-family: "Harry Potter", sans-serif;
   letter-spacing: 5px;
 }
 
+#rules button {
+  float: right;
+  background: hsla(0, 0%, 4%, 0.7);
+  color: aliceblue;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 1px 3px 10px rgb(247, 242, 242);
+  font-family: "Harry Potter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
 #newGame {
+  clear: both;
+  background: hsl(0, 0%, 100%, 0.7);
   justify-content: center;
   margin: 50px 0;
   padding: 10px 20px;
@@ -26,39 +45,55 @@ body {
   letter-spacing: 5px;
   transition: all 0.3s ease-in-out;
 }
-
-.block {
-  background-color: #dc9436;
-
-  border: none;
-  padding: 20px 50px;
-  margin: 10px;
+#newGame:hover {
+  cursor: pointer;
+  background-color: #dc9538;
+  color: #fff;
 }
+
 .frst-row {
-  justify-content: center;
+  justify-content: space-around;
   display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
   flex-flow: row;
 }
 .frst-row .block {
+  background-color: transparent;
+  border: none;
   color: black;
   padding: 10px;
-  margin: 40px 30px;
+  margin: 1px 10px 0;
   border-radius: 7px;
+  text-align: center;
+}
+
+.b {
+  display: inline-block;
 }
 .frst-row h2 {
-  font-size: 25px;
-  margin-bottom: 30px;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 20px;
+  box-shadow: 1px 3px 10px black;
 }
 
 .frst-row h1 {
-  font-size: 45px;
+  background-color: #dc9538;
+  width: fit-content;
+  margin: auto;
+  font-size: 25px;
+  font-weight: 700;
   color: black;
+  padding: 20px 35px 10px;
+  border-radius: 7px;
+  text-align: center;
 }
 
 .parent-cont .img img {
-  width: 90px;
+  width: 70px;
   border: none;
   background: none;
   background-color: beige;
@@ -66,11 +101,16 @@ body {
 }
 
 .scnd-row .current {
-  background-color: #dc9436;
-  color: black;
+  background-color: hsla(34, 29%, 59%, 0.7);
+  background-image: url(images/bg-3.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-blend-mode: multiply;
+  box-shadow: 0px 0px 30px whitesmoke;
+  color: rgb(251, 247, 247);
   border-radius: 7px;
-  padding: 20px 50px;
-  margin: 20px;
+  padding: 20px 60px;
+  margin: 10px 30px;
 }
 
 .scnd-row {
@@ -81,17 +121,20 @@ body {
   flex-flow: row;
 }
 .current p {
-  margin-top: 30px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .scnd-row button {
-  background-color: hsla(0, 10%, 96%, 0.9);
+  background-color: hsla(0, 10%, 96%, 0.85);
   display: block;
   margin: 20px auto;
   border: none;
-  padding: 10px 25px;
+  padding: 15px 25px;
   border-radius: 40px;
   box-shadow: 1px 3px 10px black;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 5px;
   transition: all 0.3s ease-in-out;
@@ -99,6 +142,6 @@ body {
 
 button:hover {
   cursor: pointer;
-  background: #b4446b;
+  background-color: #dc9538;
   color: #fff;
 }

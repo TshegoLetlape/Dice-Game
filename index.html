@@ -14,35 +14,39 @@
     <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet" />
   </head>
   <body>
+    <div id="rules">
+      <button>Game rules</button>
+    </div>
+
     <div class="parent-cont text-center">
       <button id="newGame">NEW GAME</button> <br />
 
+      <div class="text-center b img">
+        <img class="img-fluid" src="images/Dice 1.png" alt="" />
+      </div>
       <div class="container frst-row">
-        <div class="text-center block">
+        <div class="text-center b block">
           <h2>GRYFINDOR</h2>
-          <h1>43</h1>
+          <h1>0</h1>
         </div>
-        <div class="text-center img">
-          <img class="img-fluid" src="images/Dice 1.png" alt="" />
-        </div>
-        <div class="text-center block">
+        <div class="text-center b block">
           <h2>SLYTHERIN</h2>
-          <h1>24</h1>
+          <h1>0</h1>
         </div>
       </div>
 
       <div class="container mt-5 scnd-row">
         <div class="text-center current mb-5">
-          <p>CURRENT</p>
-          <h3 id="p1-current">0</h3>
+          <p>TOTAL</p>
+          <h2 id="p1-current">0</h2>
         </div>
         <div class="text-center mb-5">
           <button id="rollDice">WINGARDIUM LEVIOSA</button>
           <button id="hold">HOLD</button>
         </div>
         <div class="text-center current mb-5">
-          <p>CURRENT</p>
-          <h3 id="p2-current">0</h3>
+          <p>TOTAL</p>
+          <h2 id="p2-current">0</h2>
         </div>
       </div>
     </div>
