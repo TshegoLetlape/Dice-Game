@@ -4,6 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dice Game</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
@@ -25,12 +43,12 @@
       </div>
       <div class="container frst-row">
         <div class="text-center b block">
-          <h2>SLYTHERIN</h2>
-          <h1>0</h1>
+          <h2 class="slytherin">SLYTHERIN</h2>
+          <h1 class="diceUpdate1">0</h1>
         </div>
         <div class="text-center b block">
-          <h2>GRYFFINDOR</h2>
-          <h1>0</h1>
+          <h2 class="gryffindor">GRYFFINDOR</h2>
+          <h1 class="diceUpdate2">0</h1>
         </div>
       </div>
 
@@ -40,8 +58,8 @@
           <h2 id="p1-current">0</h2>
         </div>
         <div class="text-center mb-5">
-          <button id="rollDice">WINGARDIUM LEVIOSA</button>
-          <button id="hold">HOLD</button>
+          <button id="rollDice"><strong>WINGARDIUM LEVIOSA</strong></button>
+          <button id="hold"><strong>HOLD</strong></button>
         </div>
         <div class="text-center current mb-5">
           <p>TOTAL</p>
