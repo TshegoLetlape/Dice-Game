@@ -29,12 +29,66 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet" />
   </head>
   <body>
     <div id="rules">
-      <button>Game rules</button>
+      <button onclick="music()">
+        <i class="fa fa-music" aria-hidden="true"></i>
+      </button>
+      <button onclick="gameRules()">Game rules</button>
     </div>
+    <div class="audio">
+      <audio id="audio" src="themeSong.mp3" loop>audio</audio>
+    </div>
+
+    <div id="rule" style="display: none">
+      <h3>GAME RULES</h3>
+      <h4>PLAYERS</h4>
+      <ul>
+        <li>
+          This game consists of two player characters
+          <strong>[SLYTHERIN AND GRYFFINDOR]</strong>
+        </li>
+        <li>Each player will choose their own character between the two.</li>
+      </ul>
+      <h4>HOW TO PLAY?</h4>
+      <ul>
+        <li>
+          Each player gets to roll the die three times before their turn is
+          over.
+        </li>
+        <li>
+          To throw the die, the player needs to click the
+          <strong>[WINGARDIUM LEVIOSA]</strong> button.
+        </li>
+        <li>The die is thrown randomly</li>
+        <li>
+          The number thrown will be displayed in the box under the player's
+          character name.
+        </li>
+        <li>
+          After a player's turn is over they click the
+          <strong>[HOLD]</strong> button to allow another player their turn.
+        </li>
+        <li>This game consists of Three rounds.</li>
+        <li>
+          Each player gets to play atleast three rounds before the game is over.
+        </li>
+        <li>
+          After the last round, the player with the highest score WINS the game.
+        </li>
+        <li>
+          The score of each round will be displayed in the
+          <strong>[TOTAL]</strong> box.
+        </li>
+      </ul>
+    </div>
+
     <div class="parent-cont text-center">
       <button id="newGame">NEW GAME</button> <br />
 
@@ -67,6 +121,7 @@
         </div>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>

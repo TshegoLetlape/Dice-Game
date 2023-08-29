@@ -1,3 +1,24 @@
+// Game rules
+function gameRules() {
+  let rules = document.getElementById("rule");
+
+  if (rules.style.display == "none") {
+    rules.style.display = "block";
+  } else {
+    rules.style.display = "none";
+  }
+}
+
+//Theme song
+function music() {
+  let audio = document.getElementById("audio");
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+}
+
 // Declaring game variables
 let scores, currentScore, activePlayer, playing, round;
 

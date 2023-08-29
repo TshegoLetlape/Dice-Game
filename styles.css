@@ -15,9 +15,19 @@ body {
   font-family: "Harry Potter", sans-serif;
   letter-spacing: 5px;
 }
+.themesong button {
+  background: transparent;
+  border: none;
+  /* position: fixed;
+  top: 2%;
+  right: 15%; */
+}
+.themesong .fa {
+  font-size: 30px;
+  color: #fff;
+}
 
 #rules button {
-  float: right;
   background: hsla(0, 0%, 4%, 0.7);
   color: aliceblue;
   justify-content: center;
@@ -26,10 +36,37 @@ body {
   border-radius: 40px;
   border: none;
   box-shadow: 1px 3px 10px rgb(247, 242, 242);
-  font-family: "Harry Potter", sans-serif;
   font-weight: 500;
+  font-family: "Harry Potter", sans-serif;
   letter-spacing: 5px;
   transition: all 0.3s ease-in-out;
+}
+#rules button:hover {
+  background: hsla(193, 79%, 22%, 0.6);
+}
+#rules {
+  position: fixed;
+  top: 1%;
+  right: 1%;
+}
+
+#rule {
+  clear: both;
+  background: hsl(0, 8%, 95%, 0.9);
+  color: #0b6680;
+  position: fixed;
+  top: 10%;
+  right: 1%;
+  padding: 25px;
+  border-radius: 7px;
+  box-decoration-break: clone;
+}
+#rule h3 {
+  font-family: "Harry Potter", sans-serif;
+}
+
+#rule ul {
+  list-style-type: square;
 }
 
 #newGame {
