@@ -202,6 +202,7 @@ button:hover {
   #newGame {
     position: relative;
     display: inline;
+    left: 25%;
   }
 
   .parent-cont {
