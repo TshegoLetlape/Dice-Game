@@ -34,7 +34,7 @@ const initializeGame = () => {
   scores = [0, 0];
   currentScore = 0;
   activePlayer = 0;
-  playing = true; // Flag to track if the game is still ongoing
+  playing = true; // to track if the game is still ongoing
   round = 0; // Counter to track the number of rounds played
 
   // Reset all initial values on the screen
