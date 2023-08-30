@@ -184,6 +184,30 @@ button:hover {
   background-color: #0b6680;
   color: #fff;
 }
+
+@media only screen and (max-width: 770px) {
+  body {
+    background-color: #1b2845;
+    background-image: conic-gradient(
+      rgb(25, 33, 37),
+      rgb(13, 73, 77),
+      rgb(3, 50, 69)
+    );
+  }
+
+  #rules {
+    position: relative;
+    left: 35%;
+  }
+
+  .parent-cont {
+    padding: 10px;
+  }
+  .frst-row {
+    flex-direction: column;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .container {
     display: flex;
