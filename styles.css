@@ -199,6 +199,10 @@ button:hover {
     position: relative;
     left: 35%;
   }
+  #newGame {
+    position: relative;
+    left: 35%;
+  }
 
   .parent-cont {
     padding: 10px;
