@@ -1,17 +1,23 @@
 // Game rules
 function gameRules() {
+  // We Retrieve the HTML element with the ID rule
   let rules = document.getElementById("rule");
-
+  // Check the current display style of the "rule" element
   if (rules.style.display == "none") {
+    // If the element is currently not displayed, change its display style to "block"
     rules.style.display = "block";
-  } else {
+  }
+  // If the element is currently displayed, change its display style to "none" (hide it)
+  else {
     rules.style.display = "none";
   }
 }
 
-//Theme song
+// Harry Potter Theme song
 function music() {
+  // Retrieve the HTML element with the ID "audio"
   let audio = document.getElementById("audio");
+  // We check if the audio element is paused or notre
   if (audio.paused) {
     audio.play();
   } else {
@@ -27,7 +33,7 @@ const initializeGame = () => {
   // Initialize game variables
   scores = [0, 0];
   currentScore = 0;
-  activePlayer = 0; // 0 represents Slytherin, and 1 represents Gryffindor
+  activePlayer = 0;
   playing = true; // Flag to track if the game is still ongoing
   round = 0; // Counter to track the number of rounds played
 
