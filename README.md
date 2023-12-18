@@ -1,1 +1,1 @@
-#Harry Potter Dice game
+<h1>Harry Potter Dice Game</h1>
